@@ -1,5 +1,7 @@
 # README
 
+changes to use with symfony 3.4
+
 ## Introduction
 
 MopaBarcodeBundle integrates Zend_Barcode and PHP QR Lib to be easily used in symfony2 via twig.
