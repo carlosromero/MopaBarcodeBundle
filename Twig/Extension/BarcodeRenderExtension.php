@@ -44,8 +44,8 @@ class BarcodeRenderExtension extends \Twig_Extension
     public function getFunctions()
     {
         return array(
-            'mopa_barcode_url' => new \Twig_Function_Method($this, 'url'),
-            'mopa_barcode_path' => new \Twig_Function_Method($this, 'path'),
+            new \Twig_SimpleFunction('mopa_barcode_url', array($this, 'url')),
+            new \Twig_SimpleFunction('mopa_barcode_path', array($this, 'path')),
         );
     }
 
