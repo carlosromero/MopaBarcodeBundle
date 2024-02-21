@@ -14,7 +14,7 @@
         <service id="mopa_barcode.barcode_service" class="%mopa_barcode.barcode_service.class%">
             <argument type="service" id="imagine" />
             <argument>%kernel.cache_dir%</argument>
-            <argument>%kernel.root_dir%</argument>
+            <argument>%kernel.project_dir%</argument>
             <argument>cache/barcodes/</argument>
             <argument>%imagine.web_root%</argument>
             <argument type="service" id="logger" />
