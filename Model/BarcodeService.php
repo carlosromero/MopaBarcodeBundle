@@ -5,7 +5,7 @@ use Monolog\Logger;
 use Imagine\Gd\Image;
 use Imagine\Image\ImagineInterface;
 use Imagine\Image\Box;
-use Zend\Barcode\Barcode;
+use Laminas\Barcode\Barcode;
 
 /**
  * Class BarcodeService

@@ -1,8 +1,8 @@
 {
     "name": "tsifra/barcode-bundle",
     "type": "symfony-bundle",
-    "description": "Integrates Zend_Barcode and PHP QR Lib to be easily used in symfony2 via twig",
-    "keywords": ["barcode", "qr code", "zend", "twig"],
+    "description": "Integrates laminas-barcode and PHP QR Lib to be easily used in symfony via twig",
+    "keywords": ["barcode", "qr code", "laminas", "twig"],
     "version": "master",
     "authors": [
         {
@@ -30,8 +30,6 @@
     },
     "suggest":  {
         "avalanche123/imagine-bundle": "dev-master",
-        "zendframework/zend-barcode": "~2.3.7",
-        "zendframework/zend-validator": "~2.3.7",
-        "zendframework/zend-servicemanager": "~2.3.7"
+        "laminas/laminas-barcode": "dev-master"
     }
 }

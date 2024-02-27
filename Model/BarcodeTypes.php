@@ -8,7 +8,7 @@ namespace Mopa\Bundle\BarcodeBundle\Model;
 class BarcodeTypes{
     /**
      * Barcode Types
-     * Zend_Barcode::factory will try to get the renderer, (numeric) 
+     * Barcode::factory will try to get the renderer, (numeric) 
      * If none is found local additional renderes will be tryed
      */
     protected static $types = array(

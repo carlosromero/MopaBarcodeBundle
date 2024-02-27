@@ -4,7 +4,7 @@ changes to use with symfony 3.4
 
 ## Introduction
 
-MopaBarcodeBundle integrates Zend_Barcode and PHP QR Lib to be easily used in symfony2 via twig.
+MopaBarcodeBundle integrates Laminas_Barcode and PHP QR Lib to be easily used in symfony2 via twig.
 I did include phpqrcode form  http://sourceforge.net/projects/phpqrcode/ due to changes in its config.
 Is just a shot and shouldnt be considered to be perfect. Feel free to fork and PR.
 
@@ -19,9 +19,8 @@ Is just a shot and shouldnt be considered to be perfect. Feel free to fork and P
         // ...
         "mopa/barcode-bundle": "dev-master",
         "avalanche123/imagine-bundle": "dev-master", // handles image installation via requirements
-        // if you want to use the zend barcodes
-        "zendframework/zend-barcode": "~2.3.7",
-        "zendframework/zend-servicemanager": "~2.3.7",
+        // if you want to use the laminas barcodes
+        "laminas/laminas-barcode": "dev-master",
         // optionally for playground
         "mopa/bootstrap-sandbox-bundle": "dev-master"
         // also read the readme:
